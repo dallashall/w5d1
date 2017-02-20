@@ -1,11 +1,5 @@
 Rails.application.routes.draw do
-  get 'goals/new'
-
-  get 'goals/edit'
-
-  get 'goals/index'
-
-  get 'goals/show'
+  resources :cheers
 
   resources :goals
 
